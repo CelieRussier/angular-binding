@@ -7,15 +7,6 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
 
-  title: string = 'Raclette party 🧀';
+  title: string = 'Routing Angular';
 
-  isThisIngredientVital: boolean = true;
-
-  isGuestListDisplayed: boolean = false;
-
-  songList: string[] = ["Alejandro", "Ne me quitte pas", "Le temps est bon", 'Hallelujah'];
-
-  newTitle: string = "Apprentissage Angular"
-
-  isAdmin: boolean = true;
 }
