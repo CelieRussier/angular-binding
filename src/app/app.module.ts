@@ -8,13 +8,21 @@ import { RouterModule } from '@angular/router';
 import{ ROUTES} from './app.routes'
 import { FormsModule } from '@angular/forms';
 import { ChildComponent } from './child/child.component';
+import { KitchenComponent } from './kitchen/kitchen.component';
+import { MagicOvenComponent } from './magic-oven/magic-oven.component';
+import { DeveloperComponent } from './developer/developer.component';
+import { SkillComponent } from './skill/skill.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     UserProfileComponent,
     SignUpComponent,
-    ChildComponent
+    ChildComponent,
+    KitchenComponent,
+    MagicOvenComponent,
+    DeveloperComponent,
+    SkillComponent
   ],
   imports: [
     BrowserModule,
