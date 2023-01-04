@@ -18,4 +18,6 @@ export class AppComponent {
   newTitle: string = "Apprentissage Angular"
 
   isAdmin: boolean = true;
+
+  fromTheChild: string = "Comm du parent vers l'enfant";
 }
