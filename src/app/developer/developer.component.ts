@@ -13,7 +13,7 @@ export class DeveloperComponent implements OnInit {
       'Angular',
       'https://cdn.iconscout.com/icon/free/png-256/angular-2752246-2285063.png',
       'https://angular.io/'
-    ),
+    ), new Skill('Symfony', 'https://symfony.com/images/opengraph/symfony.png', 'symfony.com')
   ])
   constructor() {}
 
