@@ -6,13 +6,21 @@ import { Component } from '@angular/core';
   styleUrls: ['./kitchen.component.css']
 })
 export class KitchenComponent {
-  isCooked: boolean = false;
+  cook: boolean = false;
+  isCooked: number = 0;
   numberOfCookies: number = 0;
   flourQuantity: number = 0;
   saltQuantity: number = 0;
   sugarQuantity: number = 0;
   eggQuantity: number = 0;
-  startCooking() {
-    this.isCooked = true;
+
+  startCooking(): void {
+   this.cook = true;
+  }
+
+  onGetCookies(event: number): void {
+    this.isCooked =+ event;
+    console.log(this.isCooked)
+    console.log(this.cook)
   }
 }

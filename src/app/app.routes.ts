@@ -6,10 +6,10 @@ import { SignUpComponent } from './sign-up/sign-up.component';
 import { UserProfileComponent } from './user-profile/user-profile.component';
 
 const ROUTES: Routes = [
-  { path: 'user-profile', component: UserProfileComponent },
-  { path: 'sign-up', component: SignUpComponent },
+//   { path: 'user-profile', component: UserProfileComponent },
+//   { path: 'sign-up', component: SignUpComponent },
   { path: 'kitchen', component: KitchenComponent },
-  { path: 'developer', component: DeveloperComponent },
+  //{ path: 'developer', component: DeveloperComponent },
 ];
 
 export { ROUTES };

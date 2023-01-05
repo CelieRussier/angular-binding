@@ -17,5 +17,12 @@ export class DeveloperComponent implements OnInit {
   ])
   constructor() {}
 
+  skill: Skill = new Skill('Blabla', 'blab', 'bla')
+
+  onDataChange(event: string): void {
+    console.log(event);
+    // 'Chaîne de caractères envoyée au parent'
+  }
+
   ngOnInit(): void {}
 }
